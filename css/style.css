@@ -1,3 +1,29 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Ubuntu:wght@300;400;700&display=swap');
 @import url('components/card.css');
+
+h1 {
+	font-family: 'Ubuntu', sans-serif;
+	color: #D4AC0D;
+	text-shadow: 2px 2px #000000;
+	font-weight: bold;
+	text-align: center;
+}
+
+h3 {
+	font-family: 'Ubuntu', sans-serif;
+	text-shadow: 2px 2px #717D7E;
+	
+}
+
+body {
+	background-color: #717D7E;
+	padding: 20px;
+}
+
+.container {
+	padding: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
