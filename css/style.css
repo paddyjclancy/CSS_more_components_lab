@@ -15,8 +15,14 @@ h3 {
 	text-shadow: 2px 2px #717D7E;	
 }
 
+h4 {
+	font-family: 'Lato', sans-serif;
+	margin: 3px;
+}
+
 p {
 	font-family: 'Ubuntu', sans-serif;
+	margin: 3px;
 }
 
 body {
@@ -24,3 +30,14 @@ body {
 	padding: 20px;
 }
 
+.review-text {
+	font-size: 8px;
+	text-align: right;
+	margin-right: 8px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.blog-text-body {
+	font-size: 10px;
+}

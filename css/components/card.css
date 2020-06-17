@@ -44,18 +44,39 @@
 }
 
 .blog-card-text-container {
+	height: 230px;
 	margin: 30px 5px;
-	padding: 30px;
+	padding: 3px 15px;
 	border: solid 1px #A9DFBF;
 	border-radius: 5px;
 	background-color: #D5F5E3;
 	opacity: 0.9;
 	display: flex;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
 .blog-text-container {
-	margin-left: 40px;
+	width: 375px;
+	margin: 15px;
 	text-align: right;
+}
+
+.airbnb-card {
+	margin: 50px auto;
+	height: 280px;
+	width: 275px;
+	border: solid 1px #D5D8DC;
+	border-radius: 0px 0px 15px 15px;
+	background-color: #D6DBDF;
+	opacity: 0.9;
+	display: flex;
+	justify-content: space-around;
+	transition: ease 0.8s;
+}
+
+.airbnb-card:hover {
+	opacity: 1;
+	box-shadow: 1px 1.5px rgba(30, 30, 30, 0.7);
+	padding: 1.5px;
 }
