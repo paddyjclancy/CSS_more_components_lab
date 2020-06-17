@@ -1,0 +1,16 @@
+
+.button-nav {
+	font-family: 'Lato', sans-serif;
+	opacity: 0.8;
+	color: #FDFEFE;
+	text-decoration: none;
+	border-left: solid 1px #7B241C;
+	border-right: solid 1px #7B241C;
+	transition: ease 0.1s;
+}
+
+.button-nav:hover {
+	opacity: 1;
+	padding: 2px;
+	box-shadow: 0px 3px rgba(30, 30, 30, 0.7);
+}
