@@ -12,12 +12,15 @@ h1 {
 
 h3 {
 	font-family: 'Ubuntu', sans-serif;
-	text-shadow: 2px 2px #717D7E;
-	
+	text-shadow: 2px 2px #717D7E;	
+}
+
+p {
+	font-family: 'Ubuntu', sans-serif;
 }
 
 body {
-	background-color: #717D7E;
+	background-color: #F8F9F9;
 	padding: 20px;
 }
 
